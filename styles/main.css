@@ -100,10 +100,11 @@ header .score-card p {
 main {
   position: relative;
   width: 550px;
+  margin-top: 3rem;
   height: 550px;
   display: flex;
   justify-content: center;
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 @media (max-width: 450px) {
   main {

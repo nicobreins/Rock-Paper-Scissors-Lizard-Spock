@@ -34,7 +34,7 @@ for(let i = 0; i < playButtons.length; i++){
             
             setTimeout(function(){
 
-                document.getElementById('main').innerHTML += `<button class="btn house-selected ress" id="${cChoice}"><div class="btn-inner"></div></button>`;
+                document.getElementById('main').innerHTML += `<div class="btn house-selected ress" id="${cChoice}"><div class="btn-inner"></div></div>`;
 
                 setTimeout(function(){
                     document.querySelector('.ress').classList.add('reveal');
